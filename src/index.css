@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-neutral-950: #000000;
+  --color-neutral-300: #DFDFDF;
+  --color-neutral-200: #EFEFEF;
+  --color-neutral-100: #F5F5F5;
+  --color-neutral-0: #FFFFFF;    
+  --gradient-1: linear-gradient(180deg, #00000000 0%, #000000A6 100%);
+  --gradient-2:linear-gradient(225deg, #63AFDB 0%, #6028F1 100%);
+  --gradient-3:linear-gradient(225deg, #65FFEB 0%, #27718A 100%);
+  --gradient-4:linear-gradient(45deg, #D3205A 0%, #FF5A5A 100%);
+  --gradient-5:linear-gradient(225deg, #F6C683 0%, #DE3838 100%);
+  --gradient-6:linear-gradient(53deg, #FFC593 0%, #BC7198 50%, #5A77FF 100%);
+  --gradient-7:radial-gradient(circle at bottom left, #FFC593 0%, #BC7198 50%, #5A77FF 100%); 
+}
+
+* {
+  font-family: 'DM Sans', sans-serif;
+  
+}
+
+:root{
+  background-color: whitesmoke;
+  outline: 4px solid teal;
+  outline-offset: 3px;
+}
