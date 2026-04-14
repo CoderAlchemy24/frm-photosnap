@@ -1,12 +1,14 @@
+import clsx from "clsx";
+
 export default function PricingCard({ title, description, monthly, yearly, isYearly }) {
   const price = isYearly ? yearly : monthly;
   const sub = isYearly ? "per year" : "per month";
 
   return (
-    <article className="w-full max-w-[327px] md:max-w-[350px] min-h-[407px] p-8 text-center 
+    <article className="w-full max-w-[327px] md:max-w-[320px] min-h-[420px] p-8 text-center 
       border border-gray-200 rounded-lg flex flex-col gap-6 bg-[var(--color-neutral-200)]
-      xl:hover:relative xl:hover:top-[-20px] xl:hover:min-h-[447px] hover:bg-black hover:text-white 
-     ">
+      hover:relative hover:bottom-[10px] hover:min-h-[450px] hover:bg-black hover:text-white 
+     transition-all duration-50">
       <h3 className="text-[24px]/[25px] font-bold">{title}</h3>
       <p className="text-[15px]/[25px] text-grey hover:text-white">{description}</p>
 
