@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/CoderAlchemy24/frm-snapshot.git](https://github.com/CoderAlchemy24/frm-snapshot.git)
-- Live Site URL: [https://frm-snapshot.netlify.app/](https://frm-snapshot.netlify.app/)
+- Solution URL: [https://github.com/CoderAlchemy24/frm-photosnap.git](https://github.com/CoderAlchemy24/frm-photosnap.git)
+- Live Site URL: [https://frm-photosnap.netlify.app/](https://frm-photosnap.netlify.app/)
 
 ## My process
 
