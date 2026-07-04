@@ -7,10 +7,11 @@ export default function Beta() {
 
     return (
       <section className="relative w-full max-w-[1440px] min-h-[288px] px-6 py-16 flex items-center justify-center mx-auto overflow-hidden md:min-h-[280px] md:px-10 xl:px-[165px]">
-      <picture className="absolute inset-0">
+      <picture className="absolute inset-0" loading="lazy">
         <source media="(min-width: 1280px)" srcSet={desktopImageUrl} />
         <source media="(min-width: 768px)" srcSet={tabletImageUrl} />
-        <img src={mobileImageUrl} alt="" aria-hidden="true" className="h-full w-full object-cover" />
+        <img src={mobileImageUrl} alt="" aria-hidden="true" className="h-full w-full object-cover" 
+         />
       </picture>
       <div className="relative z-10 w-full max-w-[1110px] text-white flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <h2 className="w-full max-w-[400px] text-[32px]/[40px] font-bold uppercase">We're in beta,<br/> get your invite<br/> today!</h2>

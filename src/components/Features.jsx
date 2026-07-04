@@ -17,7 +17,8 @@ export default function Features() {
                 </p>
            </div>
       </article>
-      <picture className="w-full md:w-[273px] md:h-[490px] md:shrink-0 xl:w-[830px] xl:h-[490px]">
+      <picture loading="lazy"
+            className="w-full md:w-[273px] md:h-[490px] md:shrink-0 xl:w-[830px] xl:h-[490px]">
         <source media="(min-width: 1280px)" srcSet="/assets/features/desktop/hero.jpg" />
         <source media="(min-width: 768px)" srcSet="/assets/features/tablet/hero.jpg" />
         <img src="/assets/features/mobile/hero.jpg" alt="Features hero"

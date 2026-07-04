@@ -14,7 +14,8 @@ export default function Home() {
             </NavLink>
           </div>
         </article> 
-        <picture className="w-full md:w-[273px] md:shrink-0 md:h-[650px] xl:basis-[830px] xl:w-auto xl:shrink-0">
+        <picture loading="lazy"
+           className="w-full md:w-[273px] md:shrink-0 md:h-[650px] xl:basis-[830px] xl:w-auto xl:shrink-0">
           <source media="(min-width: 1280px)" srcSet="/assets/home/desktop/create-and-share.jpg" />
           <source media="(min-width: 768px)" srcSet="/assets/home/tablet/create-and-share.jpg" />
           <img src="/assets/home/mobile/create-and-share.jpg" alt="hero image1"

@@ -12,7 +12,7 @@ export default function CardADesktop({ index }) {
         style={{ background: "var(--gradient-6)" }}
       >
         <div className="relative h-full">
-        <picture className="absolute inset-0 z-0">
+        <picture className="absolute inset-0 z-0" loading="lazy">
           <source media="(min-width: 768px)" srcSet={imageUrl} />
           <img src={mobileImageUrl} alt={data[index]?.title} className="w-full h-full object-cover" />
         </picture>
