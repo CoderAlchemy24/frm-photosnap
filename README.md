@@ -10,7 +10,6 @@ This is a solution to the [Photosnap Website challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 
 ## Overview
@@ -38,12 +37,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - [React](https://reactjs.org/) - JS library
-
-
-
-### AI Collaboration
-
-  I used GitHub Copilot debugging and generating boilerplate
 
 
 ## Author
